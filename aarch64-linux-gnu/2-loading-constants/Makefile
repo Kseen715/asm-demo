@@ -29,4 +29,4 @@ run: $(OUTPUT)
 clean:
 	rm -rf $(BUILD_DIR)
 
-.PHONY: clean run
+.PHONY: main clean run
