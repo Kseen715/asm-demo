@@ -3,10 +3,10 @@
 
 .section .data
 .align 3 // Ensure 8-byte alignment
-msg:            .asciz "Hello World!\n"
+msg:    .asciz "Hello World!\n"
     len_msg = .- msg
 
-buffer:         .fill 256, 1, 0
+buffer: .fill 256, 1, 0
     len_buffer = .- buffer
 
 .section .text
